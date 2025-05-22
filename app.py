@@ -7,6 +7,8 @@ import string
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
+from text_preprocessor import cleaning
+
 
 # Downloads for nltk
 nltk.download('punkt')
